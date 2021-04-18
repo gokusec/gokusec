@@ -32,3 +32,17 @@ Use "gokucli [command] --help" for more information about a command.
 `gokucli scan /home/work/code/crm/`
 
 4）等待扫描结束后登陆 http://gokusec.com/ 控制台查看结果
+
+### 常见问题
+
+1.扫描的目录不对，pom.xml文件不存在，识别不到依赖
+
+`[ERROR] The package management file was not found in the specified directory `
+
+2.项目依赖组件无法获取，如项目依赖中有私有的中央仓库，导致编译不通过，也无法检测
+
+```
+[ERROR] The maven plugin execution faile
+
+[ERROR] Failed to execute goal on project jmoney: Could not resolve dependencies for project com.flyfox:jmoney:war:5.0.0: Could not find artifact com.jflyfox:jflyfox_jfinal:jar:3.1 in aliyunmaven (https://maven.aliyun.com/repository/central) -> [Help 1]
+```
