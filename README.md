@@ -21,7 +21,7 @@ Flags:
 
 Use "gokucli [command] --help" for more information about a command.
 ```
-1）首先登陆 http://gokusec.com/ ,点击`查看TOKEN`获取自己的token信息:0e039c1f089718df49a062b82ab8e4ce987kw829
+1）首先登陆 http://gokusec.com/ ,进入控制台点击`查看TOKEN`获取自己的token信息:0e039c1f089718df49a062b82ab8e4ce987kw829
 
 2）使用token登陆gokusec cli
 
